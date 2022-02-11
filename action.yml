@@ -1,0 +1,8 @@
+name: "git actions example"
+description: "git action"
+
+runs:
+  using: composite
+  steps:
+    - run: go run go_script.go
+      shell: bash
